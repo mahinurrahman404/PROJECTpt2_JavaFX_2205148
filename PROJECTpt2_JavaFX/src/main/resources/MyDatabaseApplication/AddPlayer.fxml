@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyDatabaseApplication.AppSceneController">
+   <children>
+      <Label layoutX="219.0" layoutY="22.0" text="Enter Player Information :">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="add_name" layoutX="277.0" layoutY="88.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_country" layoutX="277.0" layoutY="128.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_age" layoutX="277.0" layoutY="167.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_height" layoutX="277.0" layoutY="208.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_club" layoutX="277.0" layoutY="248.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_position" layoutX="277.0" layoutY="287.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_jersey" layoutX="277.0" layoutY="328.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="add_salary" layoutX="277.0" layoutY="366.0" prefHeight="25.0" prefWidth="253.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="149.0" layoutY="92.0" text="Enter name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="132.0" text="Enter country:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="171.0" text="Enter age:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="212.0" text="Enter height:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="252.0" text="Enter club name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="291.0" text="Enter position:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="332.0" text="Enter jersey number:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="370.0" text="Enter salary:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="675.0" layoutY="467.0" mnemonicParsing="false" onAction="#goto_Menu_Scene" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="347.0" layoutY="419.0" mnemonicParsing="false" onAction="#addPlayer" text="Add">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

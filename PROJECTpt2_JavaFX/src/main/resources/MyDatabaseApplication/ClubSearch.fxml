@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyDatabaseApplication.AppSceneController">
+   <children>
+      <Label layoutX="193.0" layoutY="48.0" text="Choose Club Searching Option">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="228.0" layoutY="143.0" mnemonicParsing="false" onAction="#goto_secMaxSalary_Scene" text="Player(s) with the maximum salary">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="207.0" mnemonicParsing="false" onAction="#goto_secMaxAge_Scene" text="Player(s) with the maximum age">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="226.0" layoutY="267.0" mnemonicParsing="false" onAction="#goto_secMaxHeight_Scene" text="Player(s) with the maximum height">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="300.0" layoutY="328.0" mnemonicParsing="false" onAction="#goto_secYearlySalary_Scene" text="Total yearly salary">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="675.0" layoutY="467.0" mnemonicParsing="false" onAction="#goto_Menu_Scene" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

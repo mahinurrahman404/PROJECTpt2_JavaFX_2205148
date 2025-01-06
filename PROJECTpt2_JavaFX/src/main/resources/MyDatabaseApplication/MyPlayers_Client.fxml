@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyDatabaseApplication.AppSceneController">
+    <Label layoutX="309.0" layoutY="31.0" text="MY PLAYERS">
+        <font>
+            <Font size="28.0" />
+        </font>
+    </Label>
+    <Button layoutX="675.0" layoutY="467.0" mnemonicParsing="false" onAction="#client_goto_Menu_Scene" text="Back">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Button>
+    <Button layoutX="341.0" layoutY="87.0" mnemonicParsing="false" onAction="#AvailablePlayers" text="Show">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </Button>
+    <TextArea fx:id="client_detailsAreaAvailablePlayers" layoutX="129.0" layoutY="146.0" prefHeight="329.0" prefWidth="492.0">
+        <font>
+          <Font size="18.0" />
+        </font>
+    </TextArea>
+</AnchorPane>
